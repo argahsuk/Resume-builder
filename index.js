@@ -243,9 +243,3 @@ document.getElementById('download').addEventListener('click', function () {
         doc.save('resume.pdf');
     });
 });
-
-
-        doc.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight);
-        doc.save('resume.pdf');
-    });
-})
