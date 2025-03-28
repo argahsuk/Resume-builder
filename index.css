@@ -1,0 +1,149 @@
+.container{
+    display: flex;
+}
+
+body {
+    background-color: #fffefe;
+    margin: 0;
+    padding: 0;
+}
+
+#form {
+    width: 49%;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    background-color: palevioletred;
+}
+
+h3 {
+    color: #333;
+    border-bottom: 2px solid #ddd;}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#form div {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* for canvas */
+#canvas{
+    width: 49%;
+    display: inline-block;
+    border: 2px black solid;
+    object-fit: contain;
+    display: none;
+}
+
+/* personal section */
+#can-personal{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 13vh;  
+}
+#can-personal img{
+    width: 12vh;height: 12vh;
+}
+#can-name{
+    position: relative;
+    bottom: 8vh;
+    font-weight: bolder;
+    font-size: large;
+    width: 24vw;
+    display: inline-block;
+}
+#can-course{
+    position: relative;
+    right: -12.5vh;
+    bottom: 6vh;
+    width: 24vw;
+    display: inline-block;
+    font-size:16px;
+}
+#can-roll{
+    position: relative;
+    bottom: 8.2vh;
+    right: 38.2vh;
+    width: 24vw;
+    display: inline-block;
+}
+#can-uniname{
+    position: relative;
+    right: -12.3vh;
+    font-size: small;
+    bottom: 9vh;
+    width: 24vw;
+    display: inline-block;
+    font-weight: bolder;
+    font-family: 90px;
+}
+#can-contact{
+    position: relative;
+    left: 50vh;
+    bottom: 14vh;
+    display: inline-block;
+    width: 24vw;
+    text-align: right;
+}
+#can-email{
+    position: relative;
+    left: 0vh;
+    bottom: 12vh;
+    display: inline-block;
+    width: 24vw;
+    text-align: right;
+}
+#can-ofemail{
+    position: relative;
+    left: 0vh;
+    bottom: 12vh;
+    display: inline-block;
+    width: 24vw;
+    text-align: right;
+}
+#can-ofemail{
+    position: relative;
+    left: 0vh;
+    bottom: 12vh;
+    display: inline-block;
+    width: 24vw;
+    text-align: right;
+}
+#can-git{
+    left: 94vh;
+    bottom: 12vh;
+    position: relative;
+}
+#can-linkden{
+    position: relative;
+    left: 86vh;
+    bottom: 9vh;
+}
+b{
+    padding:12px 0px;
+}
+
+/* education section */
+#can-seceduy,#can-siseceduy,#can-baceduy,#can-maseduy{
+    position: relative;
+    left: 38.3vw;
+    bottom: 4vh;
+    width: 10vw;
+    text-align: right;
+    
+}
