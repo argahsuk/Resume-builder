@@ -46,7 +46,7 @@ input{
     display: inline-block;
     border: 2px black solid;
     object-fit: contain;
-    display: none;
+    /* display: none; */
 }
 
 /* personal section */
@@ -54,7 +54,7 @@ input{
     justify-content: center;
     align-items: center;
     align-content: center;
-    height: 13vh;  
+    height: 15vh;  
 }
 #can-personal img{
     width: 12vh;height: 12vh;
@@ -131,11 +131,17 @@ input{
 }
 #can-linkden{
     position: relative;
-    left: 86vh;
-    bottom: 9vh;
+    left: 85.8vh;
+    bottom: 9.6vh;
+}
+#can-portfolio{
+    position: relative;
+    left: 75.8vh;
+    bottom: 7vh;
 }
 b{
     padding:12px 0px;
+    font-size: medium;
 }
 
 /* education section */
@@ -146,4 +152,22 @@ b{
     width: 10vw;
     text-align: right;
     
+}
+
+
+#can-achievementoney,#can-achievementtwoy,#can-achievementthreey,#can-achievementfoury{
+    position: relative;
+    left: 38.3vw;
+    bottom: 4vh;
+    width: 10vw;
+    text-align: right;
+    
+}
+
+
+
+h3{
+    font-size: medium;
+    height: 1.8vh;
+    position: relative;
 }
