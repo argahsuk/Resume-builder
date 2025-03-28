@@ -38,7 +38,10 @@ input{
     padding: 10px;
     border-radius: 5px;
 }
-
+textarea{
+    width: 45vw;
+    height: 7vh;
+}
 
 /* for canvas */
 #canvas{
