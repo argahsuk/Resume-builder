@@ -46,7 +46,7 @@ input{
     display: inline-block;
     border: 2px black solid;
     object-fit: contain;
-    /* display: none; */
+    display: none;
 }
 
 /* personal section */
