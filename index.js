@@ -4,6 +4,7 @@ document.querySelector('.preview').addEventListener('click',function(){
     //canvas
     let can=document.querySelector('#canvas');
     can.style.display='block';
+
     // name 
      store=document.getElementById("name").value
     console.log(store);
@@ -44,6 +45,7 @@ document.querySelector('.preview').addEventListener('click',function(){
     console.log(store6);
     document.getElementById('can-linkden').setAttribute('href',store6);
 
+    //ofmail
     store7=document.getElementById('ofemail').value
     console.log(store7);
     targetelement7=document.getElementById('can-ofemail');
@@ -219,18 +221,29 @@ document.querySelector('.preview').addEventListener('click',function(){
     targetelement34=document.getElementById('can-achievementfoury');
     targetelement34.textContent=store34;
 
+    //portfolio
+    store35=document.getElementById('portfolio').value
+    console.log(store35);
+    document.getElementById('can-portfolio').setAttribute('href',store35);
+
 })
 
 
 //adding downlaod option
 document.getElementById('download').addEventListener('click', function () {
-    let { jsPDF } = window.jspdf;
+    const { jsPDF } = window.jspdf;
     let doc = new jsPDF();
 
     html2canvas(document.getElementById('canvas')).then((canvas) => {
         let imgData = canvas.toDataURL('image/png');
-        let imgWidth = 212; // A4 width in mm
-        let imgHeight = 550;
+        let imgWidth = 210; // A4 width in mm
+        let imgHeight = (canvas.height * imgWidth) / canvas.width;
+
+        doc.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight);
+        doc.save('resume.pdf');
+    });
+});
+
 
         doc.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight);
         doc.save('resume.pdf');
