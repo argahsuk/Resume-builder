@@ -128,18 +128,18 @@ textarea{
     text-align: right;
 }
 #can-git{
-    left: 94vh;
+    left: 93.9vh;
     bottom: 12vh;
     position: relative;
 }
 #can-linkden{
     position: relative;
-    left: 85.8vh;
+    left: 85.5vh;
     bottom: 9.6vh;
 }
 #can-portfolio{
     position: relative;
-    left: 77.8vh;
+    left: 77.3vh;
     bottom: 7vh;
 }
 b{
@@ -174,3 +174,4 @@ h3{
     height: 1.8vh;
     position: relative;
 }
+
