@@ -240,7 +240,7 @@ document.getElementById('download').addEventListener('click', function () {
 })
 
 // intially
-setInterval(updateResume, 200)
+setInterval(updateResume, 50)
 
 
 // let form = document.getElementById('form');
