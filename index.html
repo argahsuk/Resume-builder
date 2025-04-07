@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume builder</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body> 
+   <div class="container">
+    <div id="form">
+       <div id="sticktop">
+        <h1>Welcome to my Resume Building website <br>Please fill your details</h1>
+        <button id="download" >Download Resume</button>
+       </div>
+        
+        <div id="personal">
+            <!-- personals -->
+            <h3>Personal</h3>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div>
+                <label for="roll">Roll no.</label>
+                <input type="roll" id="roll" name="roll" placeholder="Enter your roll" required>
+            </div>
+            <div>
+                <label for="contact">Contact</label>
+                <input type="number" id="contact" name="Contact" placeholder="Enter your contact" required>
+            </div>
+            <div>
+                <label for="email">E-mail 1</label>
+                <input type="email" id="email" name="email" placeholder="Enter your personal email" required>
+            </div>
+            <div>
+                <label for="ofemail">E-mail 2</label>
+                <input type="email" id="ofemail" name="ofemail" placeholder="Enter your official email" required>
+            </div>
+            
+            <div>
+                <label for="git">Git-hub:</label>
+                <input type="text" id="git" name="git" placeholder="Enter your git profile link" required>
+            </div>
+            
+            <div>
+                <label for="linkden">Linkedin:</label>
+                <input type="text" id="linkden" name="linkden" placeholder="Enter your Linkden profile link" required>
+            </div>
+            
+            <div>
+                <label for="portfolio">portfolio:</label>
+                <input type="text" id="linkden" name="linkden" placeholder="Enter your portfolio link" required>
+            </div>
+            
+            <div>
+                <label for="course">Course</label>
+                <input type="text" id="course" name="course" placeholder="Enter your course eg. btech(4year)+mtech(DS)" required>
+            </div>
+                 </div>
+
+                    <!-- Skills -->
+        <div id="skill">
+            <h3>Skills</h3>
+                <div>
+                    <label>Programming Languages:</label>
+                    <input type="text" name="skillName1" id="skillName1" placeholder="Skill Name,skill name2,etc">
+                </div>
+                <div>
+                    <label>Developer tools and frameworks:</label>
+                    <input type="text" name="skillName2" id="skillName2" placeholder="Skill Name,skill name2,etc">
+                </div>
+                <div>
+                    <label>Soft Skills:</label>
+                    <input type="text" name="skillName3" id="skillName3" placeholder="Skill Name,skill name2,etc">
+                </div>    
+              
+                <!-- education -->
+                <div id="education">
+                    <h3>Education</h3>
+                    <div id="fiedu">
+                        <label for="secedu">Secondary education</label>
+                        <input type="text" id="secedu" name="secedu" placeholder="Name of institution">
+                        <input type="text" id="seceduy" placeholder="Year of completion/grades you got">
+                    </div>
+                </div>
+                <div id="sedu">
+                    <label for="sisecedu">senior-Secondary education</label>
+                    <input type="text" id="sisecedu" name="sisecedu" placeholder="Name of institution">
+                    <input type="text" id="siseceduy" placeholder="Year of completion/grades you got">
+                </div>
+                
+                <div id="tedu">
+                    <label for="bacedu">Bachelor's education</label>
+                    <input type="text" id="bacedu" name="bacedu" placeholder="Name of institution">
+                    <input type="text" id="baceduy" placeholder="Year of completion/grades you got">
+                </div>
+                
+                <div id="foedu">
+                    <label for="masedu">Master's education</label>
+                    <input type="text" id="masedu" name="masedu" placeholder="Name of institution">
+                    <input type="text" id="maseduy" placeholder="Year of completion,grades you got eg.89%or8.75cgpa">
+                </div>
+            </div>
+            
+            <!-- projects -->
+            <div id="projects">
+                <h3>projects</h3>
+                <div name="fipro">
+                    <label for="proone">Project 1:</label>
+                    <input type="text" id="proone" placeholder="Project Name">
+                    <textarea id="prodesone" placeholder="Project Description in 15 words"></textarea>
+                </div>
+                
+                <div name="sepro">
+                    <label for="protwo">Project 2:</label>
+                    <input type="text" id="protwo" placeholder="Project Name">
+                    <textarea id="prodestwo" placeholder="Project Description in 15 words"></textarea>
+                </div>
+                
+                <div name="thpro">
+                    <label for="prothree">Project 3:</label>
+                    <input type="text" id="prothree" placeholder="Project Name">
+                    <textarea id="prodesthree" placeholder="Project Description in 15 words"></textarea>
+                </div>
+                
+                <div name="fipro">
+                    <label for="profour">Project 4:</label>
+                    <input type="text" id="profour" placeholder="Project Name">
+                    <textarea id="prodesfour" placeholder="Project Description in 15 words"></textarea>
+                </div>
+            </div>
+            
+            <div id="achievements">
+                <h3>Achievements</h3>
+                <div id="fia">
+                    <label for="achievementone">achievement 1</label>
+                    <input type="text" id="achievementone" name="achievementone" placeholder="Name of achievement">
+                    <input type="text" id="achievementoney" placeholder="Year of achievement">
+                </div>
+                
+                <div id="sia">
+                    <label for="achievementtwo">achievement 2</label>
+                    <input type="text" id="achievementtwo" name="achievementtwo" placeholder="Name of achievement">
+                    <input type="text" id="achievementtwoy" placeholder="Year of achievement">
+                </div>
+                
+                <div id="tha">
+                    <label for="achievementthree">achievement 3</label>
+                    <input type="text" id="achievementthree" name="achievementthree" placeholder="Name of achievement">
+                    <input type="text" id="achievementthreey" placeholder="Year of achievement">
+                </div>
+                <div id="foa">
+                    <label for="achievementfour">achievement 4</label>
+                    <input type="text" id="achievementfour" name="achievementfour" placeholder="Name of achievement">
+                    <input type="text" id="achievementfoury" placeholder="Year of achievement">
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- Resume Preview Section -->
+        <div id="canvas">            
+            <!-- Personal Section -->
+            <div id="can-personal">
+                <img src="image.png" alt="">
+                <div id="can-name">Kushagra</div>
+                <div id="can-course">Btech</div>
+        <div id="can-roll">Roll no.:2446033</div>
+        <div id="can-contact">79799*****</div>
+        <div id="can-email">angrycoder@gmail.com</div>
+        <div id="can-uniname">National Institute of Technology-Patna</div>
+        <div id="can-ofemail">officialcoder@gmail.com</div>
+        <a id="can-git" href="" target="_blank">Git-hub</a>
+        <a id="can-linkden" href="" target="_blank">Linkedin</a>
+        <a href="" id="can-portfolio" target="_blank" >Portfolio</a>
+    </div>
+    
+    <!-- Education Section -->
+    
+    <div id="can-education">
+        <h3>Education</h3>
+        <div class="can-edu">
+            <b>Secondary Education</b>
+            <div id="can-secedu">10TH</div>
+            <div id="can-seceduy">2018/78</div>
+        </div>
+        
+        <div class="can-edu">
+            <b>Senior-Secondary Education</b>
+            <div id="can-sisecedu">12th</div>
+            <div id="can-siseceduy">2020/87</div>
+        </div>
+        
+        <div class="can-edu">
+            <b>Bachelor's Education</b>
+            <div id="can-bacedu">BTECH</div>
+            <div id="can-baceduy">2022/8.9</div>
+        </div>
+        
+        <div class="can-edu">
+            <b>Master's Education</b>
+            <div id="can-masedu">MTECH</div>
+            <div id="can-maseduy">2024/8.9</div>
+            <hr>
+        </div>
+    </div>
+    
+    <!-- Skills Section -->
+    <div id="can-skills">
+        <h3>Skills</h3>
+        <div class="can-skill">
+            <b>Programming Languages:</b>
+            <div id="can-skillName1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, iusto?</div>
+        </div>
+        <div class="can-skill">
+            <b>Developer tools and frameworks:</b>
+            <div id="can-skillName2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi rerum repudiandae error?</div>
+        </div>
+        <div class="can-skill">
+            <b>Soft Skills:</b> 
+            <div id="can-skillName3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ipsa, fugit aliquid nobis deleniti et, illo nostrum,</div>
+            
+        </div>
+        
+        
+    </div>
+    <hr>
+    
+    <!-- Projects Section -->
+    <div id="can-projects">
+        <h3>Projects</h3>
+        <div class="can-project">
+            <b>Project 1:</b>
+            <div id="can-proone"></div>
+            <div id="can-prodesone">Description</div>
+        </div>
+        <div class="can-project">
+            <b>Project 2:</b>
+            <div id="can-protwo"></div>
+            <div id="can-prodestwo">Description</div>
+        </div>
+        <div class="can-project">
+            <b>Project 3:</b>
+            <div id="can-prothree"></div>
+            <div id="can-prodesthree">Description</div>
+        </div>
+        <div class="can-project">
+            <b>Project 4:</b>
+            <div id="can-profour"></div>
+            <div id="can-prodesfour">Description</div>
+        </div>
+        <hr>
+        
+        <!-- Achievements Section -->
+        <div id="can-achievements">
+            <h3>Achievement</h3>
+            <div class="can-fia">
+                <div id="can-achievementone"><b>Achievement 1:</b></div>
+                <div id="can-achievementoney">year</div>
+            </div>
+            
+            <div class="can-sia">
+                <div id="can-achievementtwo"><b>Achievement 2:</b></div>
+                <div id="can-achievementtwoy">year</div>
+            </div>
+            
+            <div class="can-tha">
+                <div id="can-achievementthree"> <b>Achievement 3:</b></div>
+                <div id="can-achievementthreey">year</div>
+            </div>
+            
+            <div class="can-foa">
+             <div id="can-achievementfour">  <b>Achievement 4:</b></div>
+                <div id="can-achievementfoury">year</div>
+                <hr>
+            </div>
+        </div>
+    </div>
+</div>   
+</div>
+ <!-- Contacts part -->
+ <footer id="footer">
+    <b>Contacts :</b>
+    <a href="mailto:Kushagra.dd24.cs@gmail.com"> E-Mail </a>
+    <a href="https://www.linkedin.com/in/kushagra-451307326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> Linked_in </a>
+    <a href="https://www.instagram.com/_argahsuk?igsh=MWxhbnNya2VwNzFvbA=="> Instagram </a>
+    <a href="http://t.me/Argahsuk"> Telegram </a>
+ </footer>
+
+<!-- adding downlaod feature -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</body>
+<script src="index.js"></script>
+</html> 
+
