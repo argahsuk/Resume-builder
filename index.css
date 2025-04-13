@@ -211,3 +211,18 @@ footer a{
     background-color: palevioletred;
     z-index:1 
 }
+
+/* responsive */
+@media (max-width:650px){
+    .container{
+        flex-direction: column;
+        display: flex;
+    }
+    #form{
+        width: 99vw;
+
+    }
+    #canvas{
+        width: 99vw;
+    }
+}
